@@ -5,7 +5,6 @@ import clsx from 'clsx';
 import Link from 'next/link';
 import { generatePagination } from '@/app/lib/utils';
 import { usePathname, useSearchParams } from 'next/navigation'
-import { pages } from 'next/dist/build/templates/app-page';
 
 export default function Pagination({ totalPages }: { totalPages: number }) {
 
